@@ -1,0 +1,7 @@
+# Локальний однонодовий брокер Kafka (KRaft, без ZooKeeper) на localhost:9092
+services:
+  kafka:
+    image: apache/kafka:3.9.0
+    container_name: kafka-hw05
+    ports:
+      - "9092:9092"
